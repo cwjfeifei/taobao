@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:background="@color/task_ing"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/iv_title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_arrow_back_white_24dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_title_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_refresh_white_24dp"
+            android:paddingRight="10dp"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/tv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#38ADFF"
+            android:textSize="16dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

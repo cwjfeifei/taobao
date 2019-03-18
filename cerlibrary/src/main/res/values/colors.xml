@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff0000</color>
+    <color name="colorPrimaryDark">#ff0000</color>
+    <color name="colorAccent">#ff0000</color>
+    <!--有韵味的-->
+    <color name="color_2c2c2c">#2c2c2c</color>
+    <color name="color_515151">#515151</color>
+    <color name="color_707070">#707070</color>
+    <color name="color_8a8a8a">#8a8a8a</color>
+    <color name="color_bfbfbf">#bfbfbf</color>
+    <color name="color_e1e1e1">#e1e1e1</color>
+    <color name="color_f3f3f3">#f3f3f3</color>
+    <color name="bar">#6CB0DF</color>
+    <color name="bar1">#B5C2CA</color>
+    <color name="bar2">#F5E6BF</color>
+    <color name="bar3">#81D8C8</color>
+    <color name="main_bg">#f5f5f5</color>
+    <color name="personal_line">#D1D1D1</color>
+    <color name="glide_placehold">#99d4d4d4</color>
+    <color name="main_color">#ff0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dialog_bg_color">#B3000000</color>
+    <color name="main_blue">#31AFFE</color>
+    <color name="color_FF4081">#FF4081</color>
+    <color name="dialog_bg">#33000000</color>
+    <color name="color_tran">#00000000</color>
+    <color name="update_dialog_text">#39C0E8</color>
+    <!--任务列表颜色值-->
+    <color name="task_ing">#444444</color>
+    <color name="task_approve">#ff943e</color>
+    <color name="task_over">#e04f4a</color>
+    <color name="task_finish">#47b34f</color>
+    <!--有盾-->
+    <color name="super_real_nav_bar">#ffffff</color> <!--导航栏背景颜色-->
+    <color name="super_real_nav_text">#000000</color> <!--导航栏文字颜色-->
+    <color name="super_real_light">@color/main_color</color><!--按钮背景颜色-->
+    <string name="super_step_2">确认姓名</string> <!--姓名确认-导航栏标题-->
+    <color name="ocr_result_titleColor">#ffffff</color> <!--姓名确认-导航栏文字颜色-->
+    <color name="ocr_result_nameColor">#6c9af0</color> <!--姓名-文字颜色-->
+    <color name="ocr_result_explainColor">#333333</color> <!--说明文字-文字颜色-->
+    <color name="ocr_result_changeButtonTitleColor">#6c9af0</color> <!--修改-修改按钮文字颜色-->
+    <color name="ocr_result_startButtonBGColor">#363f50</color> <!--开始刷脸-按钮背景颜色-->
+    <color name="ocr_result_startButtonTitleColor">#ffffff</color> <!--开始刷脸-按钮文字颜色-->
+    <string name="super_step_3">刷脸</string><!-- 刷脸-导航栏标题-->
+    <color name="live_backgroundColor">#ffffff</color> <!--背景颜色-->
+    <color name="live_bubbleTitleColor">#ffffff</color><!-- 动作提示-文字颜色-->
+    <color name="live_fillLineColor">#6780cc</color> <!--实线圆圈颜色-->
+    <color name="live_dashLineColor">#6275c7</color><!-- 虚线圆圈颜色-->
+</resources>

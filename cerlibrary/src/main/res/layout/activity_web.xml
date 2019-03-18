@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/rl_auth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_e1e1e1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.xbrc.cerlibrary.taobao.DiffuseView
+                    android:id="@+id/diffuseView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:diffuse_color="@color/colorAccent"
+                    app:diffuse_coreColor="@color/colorPrimaryDark"
+                    app:diffuse_coreImage="@android:drawable/ic_menu_search"
+                    app:diffuse_coreRadius="100"
+                    app:diffuse_maxWidth="300"
+                    app:diffuse_speed="5"
+                    app:diffuse_width="4" />
+
+                <com.daimajia.numberprogressbar.NumberProgressBar
+                    android:id="@+id/number_progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <com.xbrc.cerlibrary.wave.MultiWaveHeader
+                    android:id="@+id/waveHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleY="-1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="正在认证，请耐心等待..."
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
